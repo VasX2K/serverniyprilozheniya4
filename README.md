@@ -61,14 +61,3 @@ alembic upgrade head
 alembic current
 alembic downgrade -1
 ```
-
-## Подготовка к GitHub
-
-Если репозиторий еще не связан с GitHub:
-
-```powershell
-git remote add origin <url-репозитория>
-git branch -M main
-git push -u origin main
-```
-
